@@ -1,0 +1,44 @@
+
+.card{
+    display: flex ;
+    align-items: center;
+    width: 30vw ;
+    margin-left: 50px;
+    height: 85vh ;
+    padding: 15px;
+    background-color: rgb(226, 230, 233) !important;
+    box-shadow: 2px 2px 20px #0d6efd;
+    overflow-y: scroll;
+}
+.cards{
+    overflow-y: scroll; 
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.hidden{
+    display: none !important;
+}
+.appear{
+    display: block;
+}
+.card_holder{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #0d6efd;
+    padding: 10px;
+    width: 22vw;
+    background-color: #0d6efd;
+    color: white;
+    /* box-shadow: 0.1px 0.1px 5px; */
+    position:relative;
+}
+.btn_delete{
+   width: 40px;
+   background-color: white !important;
+   color: #0d6efd !important; 
+   font-size: 11px !important;
+   padding: 2px !important;
+   position: relative;
+   left: 140px;
+}
